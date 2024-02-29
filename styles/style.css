@@ -1,0 +1,76 @@
+:root {
+  font-size: 62.5%;
+
+  --azul-escuro: #010a26;
+  --fundo-site: #022859;
+  --destaque: #03318c;
+  --detalhes: #033e8c;
+  --cor-texto: #c1c3bd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: white;
+}
+
+body {
+  background: var(--azul-escuro);
+}
+
+.titulo {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.8rem;
+  font-family: "Playfair Display", serif;
+}
+
+.rodapeImagens {
+  text-align: center;
+  display: flex;
+}
+
+.logo {
+  padding: 2rem;
+  width: 8rem;
+  z-index: 2;
+  position: absolute;
+  top: 9rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imagem {
+  width: 100%;
+  position: absolute;
+  top: 9.8rem;
+}
+
+.tituloHistoria {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: "Playfair Display", serif;
+}
+
+.historia {
+  width: 34rem;
+  position: absolute;
+  top: 53%;
+  left: 2rem;
+  padding: 0.6rem;
+  line-height: 1.2rem;
+  font-family: "DM Serif Display", serif;
+}
+
+.base {
+  position: absolute;
+  top: 95%;
+  left: 16%;
+}
